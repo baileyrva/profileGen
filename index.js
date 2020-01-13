@@ -22,21 +22,21 @@ gitHubInfo = async (username, chosenColor) => {
       }
     }
   );
-};
 
-await conversion(
-  { html: generateHTML.generateHTML(data, chosenColor) },
-  function(err, result) {
-    if (err) {
-      return console.error(err);
+  await conversion(
+    { html: generateHTML.generateHTML(data, chosenColor) },
+    function(err, result) {
+      if (err) {
+        return console.error(err);
+      }
+
+      console.log(result.numberOfPages);
+      console.log(result.logs);
+      result.stream.pipe(fs.createWriteStream("./index.pdf"));
+      conversion.kill();
     }
-
-    console.log(result.numberOfPages);
-    console.log(result.logs);
-    result.stream.pipe(fs.createWriteStream("./index.pdf"));
-    conversion.kill();
-  }
-);
+  );
+};
 
 function getUserInput() {
   inquirer
