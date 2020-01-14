@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const axios = require("axios");
-const createHTML = require("./createHTML");
+const generateHTML = require("./generateHTML");
 const convertFactory = require("electron-html-to");
 
 const conversion = convertFactory({
