@@ -192,7 +192,6 @@ function generateHTML(data, color) {
             <img src="${data.avatar_url}">
             <h1>Hi!</h1>
             <h2>My name is ${data.name}!</h2>
-            <p>Currently @ ${data.company}</p>
             <div class="links-nav">
               <nav>
                 <a href="" class="nav-link"> ${data.location} </a>
