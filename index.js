@@ -7,7 +7,7 @@ const convertFactory = require("electron-html-to");
 const conversion = convertFactory({
   converterPath: convertFactory.converters.PDF
 });
-
+// pulling from github to create profile 
 gitHubInfo = async (username, chosenColor) => {
   let res = await axios.get("https://api.github.com/users/" + username);
   const data = res.data;
@@ -22,22 +22,19 @@ gitHubInfo = async (username, chosenColor) => {
       }
     }
   );
-
+// conversion from html to pdf 
   await conversion(
     { html: generateHTML.generateHTML(data, chosenColor) },
     function(err, result) {
       if (err) {
         return console.error(err);
       }
-
-      console.log(result.numberOfPages);
-      console.log(result.logs);
       result.stream.pipe(fs.createWriteStream("./index.pdf"));
       conversion.kill();
     }
   );
 };
-
+// questions for profile setup 
 function getUserInput() {
   inquirer
     .prompt([

@@ -1,3 +1,5 @@
+// colors for image and profile
+
 const colors = {
   green: {
     wrapperBackground: "#16c710",
@@ -42,7 +44,7 @@ const colors = {
     photoBorderColor: "#ffeb12"
   }
 };
-
+// function that generates html into a new file
 function generateHTML(data, color) {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -196,7 +198,7 @@ function generateHTML(data, color) {
               <nav>
                 <a href="" class="nav-link"> ${data.location} </a>
                 <a href="${data.html_url}" class="nav-link">Github</a>
-                <a href="${data.blog}" class="nav-link">Blog</a>
+                <a href="${data.blog}" class="nav-link">Portfolio</a>
               </nav>
             </div>
           </div>
