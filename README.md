@@ -15,3 +15,5 @@ Node.js, GitHub, Google, Bootstrap, and Font Awesome were used to create the app
 Credits
 
 I was the main creator of this portfolio and repository. For help when facing obstacles I constantly lean on my friend Blake, and my friend Chris. Blake is a programmer with 7+ years in the business, and Chris is a friend who is a fantastic problem solver.
+
+![](baileyProfile.gif)
