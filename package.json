@@ -118,7 +118,7 @@
     "http-deceiver": "^1.2.7",
     "http-errors": "^1.7.2",
     "http-parser-js": "^0.4.10",
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
     "inquirer": "^7.0.3",
