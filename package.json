@@ -291,7 +291,7 @@
     "upath": "^1.2.0",
     "uri-js": "^4.2.2",
     "urix": "^0.1.0",
-    "url-parse": "^1.4.7",
+    "url-parse": "^1.5.9",
     "use": "^3.1.1",
     "util-deprecate": "^1.0.2",
     "utils-merge": "^1.0.1",
