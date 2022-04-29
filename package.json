@@ -19,7 +19,7 @@
     "array-uniq": "^1.0.3",
     "array-unique": "^0.3.2",
     "assign-symbols": "^1.0.0",
-    "async": "^1.5.2",
+    "async": "^2.6.4",
     "async-each": "^1.0.3",
     "async-limiter": "^1.0.1",
     "atob": "^2.1.2",
