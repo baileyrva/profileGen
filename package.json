@@ -83,7 +83,7 @@
     "escape-html": "^1.0.3",
     "etag": "^1.8.1",
     "eventemitter3": "^4.0.0",
-    "eventsource": "^1.0.7",
+    "eventsource": "^2.0.2",
     "execa": "^1.0.0",
     "expand-brackets": "^2.1.4",
     "extend-shallow": "^3.0.2",
