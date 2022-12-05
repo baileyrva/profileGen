@@ -58,7 +58,7 @@
     "core-util-is": "^1.0.2",
     "cross-spawn": "^6.0.5",
     "decamelize": "^1.2.0",
-    "decode-uri-component": "^0.2.0",
+    "decode-uri-component": "^0.2.1",
     "deep-equal": "^1.1.1",
     "default-gateway": "^4.2.0",
     "define-properties": "^1.1.3",
