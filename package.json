@@ -230,7 +230,7 @@
     "prr": "^1.0.1",
     "pump": "^3.0.0",
     "punycode": "^2.1.1",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "querystring": "^0.2.0",
     "querystringify": "^2.1.1",
     "range-parser": "^1.2.1",
